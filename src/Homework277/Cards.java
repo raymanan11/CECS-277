@@ -1,3 +1,9 @@
+/*
+   Raymond An
+   February 4th, 2020
+   Purpose: Class meant to represent a card
+ */
+
 package Homework277;
 
 public class Cards {
@@ -10,6 +16,7 @@ public class Cards {
         suit = "";
         rank = "";
         value = 0;
+
     }
 
     /* takes in String variables suit and rank and assigns it to
@@ -66,101 +73,9 @@ public class Cards {
         return value;
     }
 
-    // custom toString used to print out clear card rank, suit, and value
+    // custom toString used to print out card rank, suit, and value
     public String toString() {
         return rank + " of " + suit + " with value of " + value;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
 
 }
