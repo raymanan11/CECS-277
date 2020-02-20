@@ -1,10 +1,11 @@
-/*
-   Raymond An
-   February 4th, 2020
-   Purpose: Class meant to represent a card
+/**
+ * @author Raymond An
+ * February 4th, 2020
+ * Purpose: Class meant to represent a card and used by the deck class to make
+ * a deck of 52 cards. Card has a suit, rank, and a value
  */
 
-package Homework277;
+package IPIProject;
 
 public class Cards {
     private String suit;
@@ -19,9 +20,13 @@ public class Cards {
 
     }
 
-    /* takes in String variables suit and rank and assigns it to
-    private variables suit, rank, and value
+    /**
+     * Constructor used to give a card it's suit and rank
+     * @param suit of the card (Hearts, Clubs, Spades, Clubs)
+     * @param rank is the value of the card (2-Ace) and depending on the rank
+     * a va;ue is assigned
      */
+
     public Cards(String suit, String rank) {
         this.suit = suit;
         this.rank = rank;
@@ -69,13 +74,18 @@ public class Cards {
         }
     }
 
+    /**
+     * @return value of the card (2-14 depending on the rank of the card)
+     */
     public int getValue() {
         return value;
     }
 
-    // custom toString used to print out card rank, suit, and value
+    /**
+     * @return string that says rank and suit of card
+     */
     public String toString() {
-        return rank + " of " + suit + " with value of " + value;
+        return rank + " of " + suit;
     }
 
 }

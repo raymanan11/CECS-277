@@ -1,12 +1,13 @@
-/*
-   Raymond An
+/**
+   @author Raymond An
    February 4th, 2020
-   Purpose: Program used to play the card game: War
+   Purpose: Program used to play the card game: War. References the Card class in
+   in order to create a deck of 52 cards.
    Inputs: None
    Output: Full game of War with winners of each round
  */
 
-package Homework277;
+package IPIProject;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,10 +27,12 @@ public class Deck {
     final String[] rank = {"2", "3", "4", "5", "6", "7", "8", "9",
             "10", "Jack", "Queen", "King", "Ace"};
 
-    /* default constructor used to create a deck with 52 cards.
-    used for loops to go through every suit and every rank then would
-    instantiate a card object and add that card into the deck
+    /**
+     *  default constructor used to create a deck with 52 cards.
+     *  used for loops to go through every suit and every rank then would
+     *  instantiate a card object and add that card into the deck
      */
+
     public Deck() {
         for (int i = 0; i < suits.length; i++) {
             for (int j = 0; j < rank.length; j++) {
@@ -39,12 +42,18 @@ public class Deck {
         }
     }
 
-    // shuffles deck of cards
+    /**
+     * shuffles deck of cards
+      */
+
     public void shuffle() {
         Collections.shuffle(deck);
     }
 
-    // deals cards to player1 and player2
+    /**
+     * deals cards to player1 and player2's respective hands
+     */
+
     public void deal() {
         int halfCards = deck.size() / 2;
 
@@ -62,9 +71,9 @@ public class Deck {
         player2 = deck;
     }
 
-    /*
-       proceeds to play the game and compares the first card as long as player has enough cards
-       If not, then that player loses and the other player with all the cards wins
+    /**
+     * proceeds to play the game and compares the first card as long as player has enough cards
+     * If not, then that player loses and the other player with all the cards wins
      */
     public void play() {
         try {
@@ -100,11 +109,12 @@ public class Deck {
         }
     }
 
-    /* compares both cards that player 1 and player 2 plays. If they are equal it goes to war round
-       If it's not equal, then goes to compares the values and whichever card is bigger, both cards go to
-       winners deck
-
-       The warPile input parameter variable is used to add all cards drawn in war to the winner's deck
+    /**
+     *  compares both cards that player 1 and player 2 plays. If they are equal it goes to war round
+     *  If it's not equal, then goes to compares the values and whichever card is bigger, both cards go to
+     *  winners deck
+     *
+     *  @param warPile used to add all cards drawn in war round to the winner's deck
      */
 
     public void compare(ArrayList warPile) {
@@ -148,18 +158,18 @@ public class Deck {
         System.out.println();
         System.out.println("Player 1's Deck");
         System.out.println(player1);
-        System.out.println(player1.size());
+        System.out.println("# of Cards for Player 1: " + player1.size());
         System.out.println();
         System.out.println("Player 2's Deck");
         System.out.println(player2);
-        System.out.println(player2.size());
+        System.out.println("# of Cards for Player 2: " + player2.size());
         System.out.println();
 
     }
 
-    /*
-        method is called whenever cards that player1 and player2 play are equal in rank
-        Both players play 3 cards each and then compare the fourth card which calls the compare method again
+    /**
+     * method is called whenever cards that player1 and player2 play are equal in rank
+     * Both players play 3 cards each and then compare the fourth card which calls the compare method again
      */
     public void War() {
 
@@ -176,18 +186,17 @@ public class Deck {
         for (int i = 0; i < war; i++) {
             // adds player1 war card to warPile
             warPile.add(player1.get(topCard));
-            System.out.println("War card for player1 is xx " + player1.get(topCard));
+            System.out.println("War card for player1 is xx");
             player1.remove(topCard);
             // adds player2 war card to warPile
             warPile.add(player2.get(topCard));
-            System.out.println("War card for player2 is xx " + player2.get(topCard));
+            System.out.println("War card for player2 is xx");
             player2.remove(topCard);
         }
         System.out.println("War card for player1 is " + player1.get(topCard));
         System.out.println("War card for player2 is " + player2.get(topCard));
         System.out.println();
 
-        System.out.println("War Pile: " + warPile);
         // then compare the next cards drawn
         compare(warPile);
 
@@ -195,7 +204,9 @@ public class Deck {
         warPile.removeAll(warPile);
     }
 
-    // custon toString() used print out all the cards in the deck
+    /**
+     * @return String that prints out all cards in deck
+     */
     public String toString() {
         String decks = deck.toString();
         return decks;
@@ -205,9 +216,6 @@ public class Deck {
         Deck deck = new Deck();
 
         deck.shuffle();
-        System.out.println("Non-shuffled");
-        System.out.println(deck);
-        System.out.println();
 
         deck.deal();
 
