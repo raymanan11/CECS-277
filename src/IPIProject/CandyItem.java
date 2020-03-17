@@ -9,6 +9,7 @@ public class CandyItem extends DessertItem {
     private double weight;
     private int centsPerPound;
     private int calories;
+    private final double HUNDRED = 100;
 
     /**
      *
@@ -60,7 +61,7 @@ public class CandyItem extends DessertItem {
      */
     @Override
     public double getCost() {
-        return (int) Math.round(weight * centsPerPound);
+        return (int) (Math.round(weight * centsPerPound)) / HUNDRED;
     }
 //----------------------------------------------------------------------------------------------------------------------
     /**
@@ -68,9 +69,8 @@ public class CandyItem extends DessertItem {
      * @return
      */
     public String toString() {
-        return "------------------------------------------------------------------------------------------------" +
-                "\n" + super.getName() + "(candy)" + "\n" + weight + " @ " + (centsPerPound / 100.0) + " /dz." +
-                "\nPrice: " + (getCost() / 100.0) + "\nCalories: " + calories;
+        return getName() + "(Candy)" + "\n" + weight + " @ " + (centsPerPound / 100.0) + " /dz." +
+                "\nPrice: " + getCost() + "\nCalories: " + calories;
     }
 //----------------------------------------------------------------------------------------------------------------------
     /**
@@ -84,8 +84,11 @@ public class CandyItem extends DessertItem {
             return 1;
         } else if(this.getCalories() < ((DessertItem) o).getCalories()) {
             return -1;
-        } else {
-            return 0;
         }
+        return 0;
+    }
+
+    public String getType() {
+        return "(Candy)";
     }
 }

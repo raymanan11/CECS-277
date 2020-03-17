@@ -7,7 +7,7 @@
    Output: Full game of War with winners of each round
  */
 
-package IPIProject;
+package War;
 
 import java.util.ArrayList;
 import java.util.Collections;

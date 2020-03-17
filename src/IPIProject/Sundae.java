@@ -1,7 +1,7 @@
 package IPIProject;
 
 public class Sundae extends IceCream {
-    private String topping;
+    private String topping = "";
     private int calories;
     private double toppingCost;
 
@@ -33,7 +33,6 @@ public class Sundae extends IceCream {
         }
     }
 
-
     /**
      *
      * @return cost of topping
@@ -57,6 +56,14 @@ public class Sundae extends IceCream {
      */
     @Override
     public String toString() {
-        return super.getName() + "(Sundae)";
+        if (topping.equals("")){
+            topping = "no toppings";
+        }
+        return name + "(Sundae)" + " with " + topping +
+                "\n" + "Price: " + getCost();
+    }
+
+    public String getType() {
+        return "(Sundae)";
     }
 }

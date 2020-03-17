@@ -42,4 +42,6 @@ public abstract class DessertItem implements Comparable{
         }
         return null;
     }
+
+    public abstract String getType();
 }

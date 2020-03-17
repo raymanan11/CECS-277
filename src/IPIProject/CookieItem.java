@@ -8,6 +8,7 @@ public class CookieItem extends DessertItem {
     private int numCookies;
     private int centsPerDozen;
     private int calories;
+    private final double HUNDRED = 100;
 
     /**
      *
@@ -56,8 +57,9 @@ public class CookieItem extends DessertItem {
      * @return Cost of cookie order based on the price per dozen cookies and the number of cookies ordered
      */
     @Override
+    // figure out how to get total amount in cents like
     public double getCost() {
-        return (int) Math.round(numCookies / 12.0 * centsPerDozen);
+        return (int) (Math.round(numCookies / 12.0 * (centsPerDozen))) / HUNDRED;
     }
 //----------------------------------------------------------------------------------------------------------------------
     /**
@@ -65,9 +67,8 @@ public class CookieItem extends DessertItem {
      * @return
      */
     public String toString() {
-        return "------------------------------------------------------------------------------------------------" +
-                "\n" + name + "(cookie)" + "\n" + numCookies + " @ " + (centsPerDozen / 100.0) + " /dz." +
-                "\nPrice: " + (getCost() / 100.0) + "\nCalories: " + calories;
+        return name + "(Cookie)" + "\n" + numCookies + " @ " + (centsPerDozen / 100.0) + " /dz." +
+                "\nPrice: " + getCost() + "\nCalories: " + calories;
     }
 //----------------------------------------------------------------------------------------------------------------------
     /**
@@ -81,8 +82,11 @@ public class CookieItem extends DessertItem {
             return 1;
         } else if(this.getCalories() < ((DessertItem) o).getCalories()) {
             return -1;
-        } else {
-            return 0;
         }
+        return 0;
+    }
+
+    public String getType() {
+        return "(Cookie)";
     }
 }

@@ -5,7 +5,7 @@
  * a deck of 52 cards. Card has a suit, rank, and a value
  */
 
-package IPIProject;
+package War;
 
 public class Cards {
     private String suit;

@@ -29,14 +29,19 @@ public class IceCream extends DessertItem {
     public int compareTo(Object o) {
         if(this.getCalories() > ((DessertItem) o).getCalories()) {
             return 1;
-        } else if(this.getCalories() < ((DessertItem) o).getCalories()) {
-            return -1;
-        } else {
-            return 0;
         }
+        else if(this.getCalories() < ((DessertItem) o).getCalories()) {
+            return -1;
+        }
+        return 0;
     }
 
+    // change toString to print out cost and name and calories
     public String toString() {
-        return super.getName() + "(IceCream)";
+        return name + "(IceCream)" + "\n" + "Price: " + cost;
+    }
+
+    public String getType() {
+        return "(Ice Cream)";
     }
 }
