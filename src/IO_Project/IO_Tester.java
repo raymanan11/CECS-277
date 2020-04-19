@@ -13,15 +13,31 @@ public class IO_Tester {
         System.out.print("Input file name: ");
         String inputFileName = scnr.next();
 
+        File doneInputFile;
+        IO io;
+
+        while (true) {
+            if(!inputFileName.equals("sales.txt")) {
+                System.out.println("File name needs to be sales.txt! Please enter file name again!");
+                System.out.print("Input file name: ");
+                inputFileName = scnr.next();
+            }
+            else {
+                io = new IO();
+                doneInputFile = io.writeInputFile(inputFileName);
+                break;
+            }
+        }
+
+        // ask user to input data, then have access to data file by variable completedFile
+//        IO io = new IO();
+//        File doneInputFile = io.writeInputFile(inputFileName);
+
         // Arraylist that uses a loop and creates output files from command line argument
         ArrayList<PrintWriter> outputFiles = new ArrayList<>();
         for(int i = 0; i < args.length; i++) {
             outputFiles.add(new PrintWriter(args[i]));
         }
-
-        // ask user to input data, then have access to data file by variable completedFile
-        IO io = new IO();
-        File doneInputFile = io.writeInputFile(inputFileName);
 
         // ArrayList to hold all created PrintWriters used to close them
         ArrayList<PrintWriter> finishedPrintWriter = new ArrayList<>();

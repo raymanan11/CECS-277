@@ -1,0 +1,100 @@
+penny
+nickel
+dime
+quarter
+dollar
+toothpick
+fingernail
+basketball
+newspaper
+sock
+hat
+popsicle stick
+roses
+feather
+napkin
+business card
+candy wrapper
+shoelace
+necklace
+nail
+comb
+stick
+pinecone
+rock
+wristband
+shoe
+phone charger
+snack wrapper
+plastic cup
+sunglasses
+soda can
+water bottle
+leaves
+branches
+wallets
+paper
+tissues
+glass bottle
+grass
+dandelion
+caterpillar
+spider
+acorn
+fire hydrant
+bicycle
+bird house
+red car
+cat
+dog
+water fountain
+delivery truck
+trash can
+lawn mower
+yard sale
+tennis ball
+football
+red door
+fence
+Tesla
+basketball hoop
+stop sign
+wind chimes
+mailbox
+arched window
+ladder
+fruit tree
+jump rope
+dragonfly
+umbrella
+porch swing
+police car
+ice cream truck
+flag
+vegetable garden
+jogger
+paperclip
+fork
+spoon
+knife
+spork
+yogurt cup
+milk carton
+movie ticket
+balloon
+streetlight
+yield sign
+manhole cover
+flowerpot
+motorcycle
+unicycle
+skateboard
+scooter
+rollerskates
+sandal
+high heels
+pen
+pencil
+soccer ball
+squirrel
+sunflower

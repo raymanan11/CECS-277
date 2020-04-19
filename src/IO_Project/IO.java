@@ -16,15 +16,9 @@ public class IO {
         File inputFile = new File(inputFileName);
 
         try {
-            if(!inputFileName.equals("sales.txt")) {
-                throw new FileNotFoundException();
-            }
-            else {
-                inputFile.createNewFile();
-            }
 
             // BufferedWriter to write to input file
-            BufferedWriter writer = new BufferedWriter(new FileWriter(inputFile));
+            PrintWriter writer = new PrintWriter(new FileWriter(inputFile));
 
             while(true) {
                 System.out.println();
@@ -45,8 +39,8 @@ public class IO {
                     scnr.nextLine();
                     String date = scnr.nextLine();
 
-                    writer.write(name + ";" + service + ";" + amount + ";" + date);
-                    writer.write("\n");
+                    writer.print(name + ";" + service + ";" + amount + ";" + date);
+                    writer.print("\n");
                 }
                 else {
                     writer.close();
@@ -64,5 +58,4 @@ public class IO {
         }
         return inputFile;
     }
-
 }
