@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a832a3ad-228c-4ae1-baa9-60644b422192" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/ListManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/MapManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/SetManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/Teams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/TestArgsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/TestArgsMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collections_Project/TestArgsSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabSingleton/SingletonTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs277/AdapterTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs277/MtoKAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Midterm_2/MidtermExam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/AnimalTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/PrintNameAnimalAddedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverLab/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorLab/HotFudge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorLab/Vanilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorLab/WhippedCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryLab/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryLab/DairyQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryLab/LetsEat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryLab/Strawberry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryLab/Vanilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer_Project/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer_Project/StockTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer_Project/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer_Project/Trade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyLab/CreditCardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyLab/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyLab/PaypalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyLab/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorLab/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorLab/VisitorTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dinner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dinner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO_Project/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO_Project/IO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO_Project/IO_Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO_Project/IO_Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO_Project/UnknownTransactionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO_Project/UnknownTransactionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer_Project/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer_Project/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observer_Project/Trader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observer_Project/Trader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,57 +55,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ClassesProject/ClassesProject2.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/Classes_Tester.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/Customer.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/Operator.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/Products.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/User.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/VendingMachine.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject2/VM_In_Out.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/User.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/Customer.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/Operator.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/VendingTester.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/VM_Tester.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/VendingMachine.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/Money.java" />
-        <option value="$PROJECT_DIR$/src/ClassesProject/VendingInput.java" />
-        <option value="$PROJECT_DIR$/labOutput.txt" />
-        <option value="$PROJECT_DIR$/src/Labs277/Lab_12.java" />
-        <option value="$PROJECT_DIR$/src/IPIProject/Deck.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/Person2.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/PriorityPersonQueue.java" />
-        <option value="$PROJECT_DIR$/src/IO_Project/TestArgsMaps.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/Map.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/Teams.java" />
-        <option value="$PROJECT_DIR$/src/LabSingleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/LabSingleton/MathLibrary.java" />
-        <option value="$PROJECT_DIR$/src/LabSingleton/SingletonTester.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/SetManager.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/TestArgsSets.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/KilometersAdaptee.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/AdapterTester.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/MtoKAdapter.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/MilesClient.java" />
-        <option value="$PROJECT_DIR$/src/IO_Project/UnknownTransactionException.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/TestArgsMaps.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/ListManager.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/MapManager.java" />
-        <option value="$PROJECT_DIR$/src/Collections_Project/TestArgsList.java" />
-        <option value="$PROJECT_DIR$/src/IO_Project/IO_Tester.java" />
-        <option value="$PROJECT_DIR$/src/IO_Project/IO.java" />
-        <option value="$PROJECT_DIR$/src/Labs277/PracticeExam.java" />
-        <option value="$PROJECT_DIR$/filter-importance.txt" />
-        <option value="$PROJECT_DIR$/src/Midterm_2/MidtermExam2.java" />
-        <option value="$PROJECT_DIR$/src/ObserverLab/AnimalAddedListener.java" />
-        <option value="$PROJECT_DIR$/src/ObserverLab/ZooSubject.java" />
-        <option value="$PROJECT_DIR$/src/ObserverLab/Subject.java" />
         <option value="$PROJECT_DIR$/src/ObserverLab/Observer.java" />
         <option value="$PROJECT_DIR$/src/ObserverLab/Animal.java" />
         <option value="$PROJECT_DIR$/src/ObserverLab/AnimalTester.java" />
         <option value="$PROJECT_DIR$/src/ObserverLab/PrintNameAnimalAddedListener.java" />
         <option value="$PROJECT_DIR$/src/ObserverLab/Zoo.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/Trade.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/Subject.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/Trader.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/Observer.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/Stock.java" />
+        <option value="$PROJECT_DIR$/src/Observer_Project/StockTester.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/CaesarShiftInputStream.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Chocolate.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/IceCreamDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/IO.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/IOExample.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Strawberry.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Vanilla.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/WhippedCream.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Cherry.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/HotFudge.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Holstein.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/BenAndJerry.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/CherryGarcia.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/ChunkyMonkey.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/IceCream.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/IceCreamFactory.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/IceCreamShopV1.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/TestSorter.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/SortingAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/SortFactory.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/DairyQueen.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/Strawberry.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/Vanilla.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/Chocolate.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/IceCreamShop.java" />
+        <option value="$PROJECT_DIR$/src/FactoryLab/LetsEat.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/Item.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/PaymentStrategy.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/Tester.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/PaypalStrategy.java" />
+        <option value="$PROJECT_DIR$/src/StrategyLab/CreditCardStrategy.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/ItemElement.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/Fruit.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/Magazine.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/VisitorTester.java" />
+        <option value="$PROJECT_DIR$/src/VisitorLab/ShoppingCartVisitor.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorLab/Dessert.java" />
       </list>
     </option>
   </component>
@@ -137,8 +134,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,13 +161,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnimalTester">
-    <configuration name="AnimalTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObserverLab.AnimalTester" />
+  <component name="RunManager" selected="Application.Holstein">
+    <configuration name="Holstein" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorLab.Holstein" />
       <module name="CECS 277" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObserverLab.*" />
+          <option name="PATTERN" value="DecoratorLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,13 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IO_Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO_Project.IO_Tester" />
+    <configuration name="IceCreamShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryLab.IceCreamShop" />
       <module name="CECS 277" />
-      <option name="PROGRAM_PARAMETERS" value="Dinner.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IO_Project.*" />
+          <option name="PATTERN" value="FactoryLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,13 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MidtermExam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Midterm_2.MidtermExam2" />
+    <configuration name="LetsEat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryLab.LetsEat" />
       <module name="CECS 277" />
-      <option name="PROGRAM_PARAMETERS" value="importance.txt filter-importance.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Midterm_2.*" />
+          <option name="PATTERN" value="FactoryLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,13 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Labs277.PracticeExam" />
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyLab.Tester" />
       <module name="CECS 277" />
-      <option name="PROGRAM_PARAMETERS" value="importance.txt filter-importance.txt strings.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Labs277.*" />
+          <option name="PATTERN" value="StrategyLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArgsMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections_Project.TestArgsMaps" />
+    <configuration name="VisitorTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VisitorLab.VisitorTester" />
       <module name="CECS 277" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections_Project.*" />
+          <option name="PATTERN" value="VisitorLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,19 +228,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestArgsMaps" />
-      <item itemvalue="Application.IO_Tester" />
-      <item itemvalue="Application.PracticeExam" />
-      <item itemvalue="Application.MidtermExam2" />
-      <item itemvalue="Application.AnimalTester" />
+      <item itemvalue="Application.Holstein" />
+      <item itemvalue="Application.IceCreamShop" />
+      <item itemvalue="Application.LetsEat" />
+      <item itemvalue="Application.Tester" />
+      <item itemvalue="Application.VisitorTester" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalTester" />
-        <item itemvalue="Application.MidtermExam2" />
-        <item itemvalue="Application.PracticeExam" />
-        <item itemvalue="Application.IO_Tester" />
-        <item itemvalue="Application.TestArgsMaps" />
+        <item itemvalue="Application.Holstein" />
+        <item itemvalue="Application.VisitorTester" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.LetsEat" />
+        <item itemvalue="Application.IceCreamShop" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24698795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,315 +324,375 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/labOutput.txt" />
-    <entry file="file://$PROJECT_DIR$/src/labInput.txt" />
-    <entry file="file://$PROJECT_DIR$/src/IO_Project.java" />
-    <entry file="file://$PROJECT_DIR$/src/War.java" />
-    <entry file="file://$PROJECT_DIR$/src/ClassesProject/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/StockTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="755">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestSub.java">
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/Stock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="434">
+          <caret line="31" column="87" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/War/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/Trader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="476">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/War/Cards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/Lab_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lodging.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/Person2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/PriorityPersonQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPIProject/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPIProject/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LabSingleton/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/Trade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer_Project/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab.java" />
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/CaesarShiftInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/IOExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/CherryGarcia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/ChunkyMonkey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/IceCream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/IceCreamShopV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/TestSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" selection-start-line="2" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/IceCreamFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/SortFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" selection-start-line="3" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/SortingAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/BenAndJerry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/Chocolate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/Vanilla.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/Strawberry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/DairyQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/IceCreamShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryLab/LetsEat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/PaymentStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/CreditCardStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/PaypalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StrategyLab/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/ItemElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/ShoppingCartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/VisitorTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VisitorLab/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabSingleton/SingletonTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LabSingleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LabSingleton/MathLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="42">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/Teams.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Holstein.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="121">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/MilesClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/KilometersAdaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/MtoKAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/AdapterTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conference.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dinner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/TestArgsSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/TestArgsMaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/MapManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO_Project/UnknownTransactionException.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Cherry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO_Project/IO_Tester.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Chocolate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="56">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sales.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labInput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labOutput.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/Lab_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracticeFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Practice.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Labs277/PracticeExam.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Vanilla.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO_Project/IO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/ListManager.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/HotFudge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/TestArgsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Midterm_2/MidtermExam2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter-importance.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Collections_Project/SetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="63" column="48" lean-forward="true" selection-start-line="61" selection-start-column="12" selection-end-line="63" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strings.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/importance.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/AnimalTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/Strawberry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/Zoo.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/IceCreamDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObserverLab/PrintNameAnimalAddedListener.java">
+    <entry file="file://$PROJECT_DIR$/src/DecoratorLab/WhippedCream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="28">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
