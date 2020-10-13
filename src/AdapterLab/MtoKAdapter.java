@@ -1,4 +1,4 @@
-package Labs277;
+package AdapterLab;
 
 public class MtoKAdapter extends KilometersAdaptee {
     private double mileTokilo = 1.609344;

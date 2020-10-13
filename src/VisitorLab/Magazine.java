@@ -1,6 +1,5 @@
 package VisitorLab;
 
-
 public class Magazine implements ItemElement {
 	private double price;
 	private String title;

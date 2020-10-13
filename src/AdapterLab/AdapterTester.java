@@ -1,4 +1,4 @@
-package Labs277;
+package AdapterLab;
 
 public class AdapterTester {
     public static void main(String[] args) {
